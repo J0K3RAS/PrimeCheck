@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=prime_check
+comment0.text=\n\ This\ class\ checks\ if\ numbers\ 2^(100i)\ -1,\ where\ i\ belongs\ to\ [1,10]\ is\ prime\n\n\ @author\ Charalampos\ Bekiaris\n\ @version\ 7-1-2021\n
+comment1.params=
+comment1.target=prime_check()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ prime_check\n
+comment2.params=a\ n\ p
+comment2.target=java.math.BigInteger\ fastmodpower(java.math.BigInteger,\ java.math.BigInteger,\ java.math.BigInteger)
+comment2.text=\n\ Calculate\ a^(n-1)\ modn\n\n\ @param\ \ a\ \ base\n\ @param\ \ n\ \ power\n\ @param\ \ p\ \ divisor\n\ @return\ \ \ \ a\ to\ the\ power\ n-1\ modulo\ n\n
+comment3.params=p\ n
+comment3.target=boolean\ is_prime(java.math.BigInteger,\ int)
+comment3.text=\n\ Given\ n\ check\ if\ 2^n-1\ is\ prime\n\n\ @param\ \ p\ \ the\ number\ to\ check\ for.\ Should\ be\ >40\n\ @param\ \ n\ \ the\ power\ to\ which\ 2\ is\ raised.\ Required\ to\ generate\ a\ random\ number\n\ @return\ \ \ \ true\ or\ false\n
+comment4.params=n\ b
+comment4.target=java.math.BigInteger\ getRandomBigInteger(int,\ java.math.BigInteger)
+comment4.text=\n\ Generates\ a\ random\ number\ between\ 1,\ 2^n\ -\ 2\ \n\n\ @param\ \ n\ \ power\ to\ raise\ 2\n\ @param\ \ b\ \ UpperBound\n\ @return\ \ \ \ The\ random\ number\n
+numComments=5
